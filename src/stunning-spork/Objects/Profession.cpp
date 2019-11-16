@@ -7,8 +7,7 @@
 //
 
 #include "Profession.hpp"
-
-Profession::Profession(std::string name, Subclass subclass) {
+Profession::Profession(std::string name, Subclasses subclass) {
     ProfessionType type;
     if (name == "barbarian") {
         type = ProfessionType::Barbarian;
@@ -46,9 +45,6 @@ Profession::Profession(std::string name, Subclass subclass) {
     else if (name == "wizard"){
         type = ProfessionType::Wizard;
     }
-    else {
-        type = ProfessionType::ERROR;
-    }
     
     this->type = type;
     this->subclass = subclass;
@@ -64,9 +60,6 @@ void Profession::SetType(ProfessionType type) {
 std::string Profession::GetTypeStr() {
     std::string output;
     switch(this->type) {
-        case ERROR:
-            output = "ERROR";
-            break;
         case Barbarian:
             output = "Barbarian";
             break;
@@ -102,6 +95,9 @@ std::string Profession::GetTypeStr() {
             break;
         case Wizard:
             output = "Wizard";
+            break;
+        default:
+            output = "ERROR";
             break;
     }
     return output;
@@ -144,10 +140,15 @@ void Profession::SetTypeStr(std::string typeStr) {
     else if (typeStr == "wizard"){
         type = ProfessionType::Wizard;
     }
-    else {
-        type = ProfessionType::ERROR;
-    }
+
     this->type = type;
+}
+
+Subclasses Profession::GetSubclass() {
+    return this->subclass;
+}
+void Profession::SetSubclass(Subclasses subclass) {
+    this->subclass = subclass;
 }
 
 
