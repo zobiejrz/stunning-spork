@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		AF31AF6D2380774700A17FE7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF31AF6C2380774700A17FE7 /* main.cpp */; };
 		AF31AF7523807A9E00A17FE7 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF31AF7323807A9E00A17FE7 /* Player.cpp */; };
+		AF31AF792380855C00A17FE7 /* Profession.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF31AF772380855C00A17FE7 /* Profession.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		AF31AF6C2380774700A17FE7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		AF31AF7323807A9E00A17FE7 /* Player.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
 		AF31AF7423807A9E00A17FE7 /* Player.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Player.hpp; sourceTree = "<group>"; };
+		AF31AF772380855C00A17FE7 /* Profession.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Profession.cpp; sourceTree = "<group>"; };
+		AF31AF782380855C00A17FE7 /* Profession.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Profession.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +74,8 @@
 			children = (
 				AF31AF7323807A9E00A17FE7 /* Player.cpp */,
 				AF31AF7423807A9E00A17FE7 /* Player.hpp */,
+				AF31AF772380855C00A17FE7 /* Profession.cpp */,
+				AF31AF782380855C00A17FE7 /* Profession.hpp */,
 			);
 			path = Objects;
 			sourceTree = "<group>";
@@ -132,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF31AF792380855C00A17FE7 /* Profession.cpp in Sources */,
 				AF31AF7523807A9E00A17FE7 /* Player.cpp in Sources */,
 				AF31AF6D2380774700A17FE7 /* main.cpp in Sources */,
 			);

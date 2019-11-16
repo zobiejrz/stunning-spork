@@ -12,6 +12,8 @@
 #include <stdio.h>
 #include <string>
 
+#include "Profession.hpp"
+
 class Player {
 public:
     Player(std::string name = "none", int level = 0, int race = 0, int profession = 0, int background = 0, int subclass = 0);
