@@ -14,18 +14,19 @@
 
 #include "Profession.hpp"
 #include "Spellbook.hpp"
+#include "Race.hpp"
 
 class Player {
 public:
-    Player(std::string name = "none", int level = 0, int race = 0, int background = 0, std::string type = "none", int subclass = 0);
+    Player(std::string name = "none", int level = 0, Race race = Race::Human, int background = 0, std::string type = "none", Subclasses subclass = Subclasses::NONE);
     std::string GetName();
     void SetName(std::string name);
     int GetLevel();
     void SetLevel(int level);
     Race GetRace();
     void SetRace(Race race);
-    string PrintRace();
-    Profession profession();
+    std::string PrintRace();
+    Profession GetProfession();
     void SetProfession(Profession profession);
     
 private:
