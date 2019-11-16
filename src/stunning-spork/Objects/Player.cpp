@@ -34,7 +34,7 @@ void Player::SetLevel(int level) {
     this->level = level;
 }
 
-Race Player::race() {
+Race Player::GetRace() {
     return this->race;
 }
 void Player::SetRace(Race race) {

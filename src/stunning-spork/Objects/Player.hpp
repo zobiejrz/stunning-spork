@@ -22,11 +22,12 @@ public:
     void SetName(std::string name);
     int GetLevel();
     void SetLevel(int level);
-    Race race();
+    Race GetRace();
     void SetRace(Race race);
+    string PrintRace();
     Profession profession();
     void SetProfession(Profession profession);
-    string PrintRace();
+    
 private:
 /*
  * These are the variables we input
