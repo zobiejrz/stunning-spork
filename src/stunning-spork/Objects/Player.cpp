@@ -15,8 +15,8 @@ Player::Player (std::string name, int level, int race, int background, std::stri
     this->name = name;
     this->level = level;
     this->race = race;
-    Profession newProfession(type, subclass);
-    this->profession() = newProfession;
+    this->profession.SetTypeStr(type);
+    this->profession.SetSubclass(subclass);
     this->background = background;
 }
 
@@ -34,14 +34,14 @@ void Player::SetLevel(int level) {
     this->level = level;
 }
 
-Race Player::race() {
+Race Player::GetRace() {
     return this->race;
 }
 void Player::SetRace(Race race) {
     this->race = race;
 }
 
-Profession Player::profession() {
+Profession Player::GetProfession() {
     return this->profession;
 }
 void Player::SetProfession(Profession profession) {

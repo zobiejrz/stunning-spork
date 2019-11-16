@@ -27,6 +27,7 @@ enum ProfessionType {
 };
 
 enum Subclasses {
+    NONE,
     BARB_Frenzy,
     BARB_Totem,
     BARD_Lore,
@@ -66,7 +67,7 @@ enum Subclasses {
     WIZARD_Evocation,
     WIZARD_Illusion,
     WIZARD_Necromancy,
-    WIZARD_Transmutation
+    WIZARD_Transmutation,
 };
 
 class Profession {
