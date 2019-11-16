@@ -13,6 +13,7 @@
 #include <string>
 
 #include "Profession.hpp"
+#include "Spellbook.hpp"
 
 class Player {
 public:

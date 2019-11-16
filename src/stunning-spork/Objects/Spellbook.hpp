@@ -11,16 +11,19 @@
 
 #include <stdio.h>
 #include <vector>
+#include "Spell.hpp"
+
 class Spellbook {
   
 public:
     Spellbook();
     void AddToKnownSpells(Spell spell);
-    void RemoveFromKnownSpells();
+    void RemoveFromKnownSpells(int index);
     void AddToPreparedSpells(Spell spell);
-    void RemoveFromPreparedSpells();
+    void RemoveFromPreparedSpells(int index);
     void SetSpellSlots(int spellSlots);
     int GetSpellSlots();
+    void SetSpellSlotS(int num);
     
 private:
     std::vector<Spell> knownSpells;

@@ -11,6 +11,7 @@
 		AF31AF7523807A9E00A17FE7 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF31AF7323807A9E00A17FE7 /* Player.cpp */; };
 		AF31AF792380855C00A17FE7 /* Profession.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF31AF772380855C00A17FE7 /* Profession.cpp */; };
 		AF31AF7C23809A1F00A17FE7 /* Spellbook.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF31AF7A23809A1F00A17FE7 /* Spellbook.cpp */; };
+		AF31AF7F2380A50E00A17FE7 /* Spell.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF31AF7D2380A50E00A17FE7 /* Spell.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		AF31AF782380855C00A17FE7 /* Profession.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Profession.hpp; sourceTree = "<group>"; };
 		AF31AF7A23809A1F00A17FE7 /* Spellbook.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Spellbook.cpp; sourceTree = "<group>"; };
 		AF31AF7B23809A1F00A17FE7 /* Spellbook.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Spellbook.hpp; sourceTree = "<group>"; };
+		AF31AF7D2380A50E00A17FE7 /* Spell.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Spell.cpp; sourceTree = "<group>"; };
+		AF31AF7E2380A50E00A17FE7 /* Spell.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Spell.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 				AF31AF782380855C00A17FE7 /* Profession.hpp */,
 				AF31AF7A23809A1F00A17FE7 /* Spellbook.cpp */,
 				AF31AF7B23809A1F00A17FE7 /* Spellbook.hpp */,
+				AF31AF7D2380A50E00A17FE7 /* Spell.cpp */,
+				AF31AF7E2380A50E00A17FE7 /* Spell.hpp */,
 			);
 			path = Objects;
 			sourceTree = "<group>";
@@ -145,6 +150,7 @@
 				AF31AF792380855C00A17FE7 /* Profession.cpp in Sources */,
 				AF31AF7C23809A1F00A17FE7 /* Spellbook.cpp in Sources */,
 				AF31AF7523807A9E00A17FE7 /* Player.cpp in Sources */,
+				AF31AF7F2380A50E00A17FE7 /* Spell.cpp in Sources */,
 				AF31AF6D2380774700A17FE7 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
