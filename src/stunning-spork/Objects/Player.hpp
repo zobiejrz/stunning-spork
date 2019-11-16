@@ -14,11 +14,15 @@
 
 class Player {
 public:
-    Player(std::string name, int level, int race, int profession, int background, int subclass);
+    Player(std::string name = "none", int level = 0, int race = 0, int profession = 0, int background = 0, int subclass = 0);
     std::string GetName();
     void SetName(std::string name);
     int GetLevel();
-    void SetLevel(int level);
+    void GetLevel(int level);
+    Race race();
+    void SetRace(Race race);
+    Profession profession();
+    void SetProfession(Profession profession);
     
 private:
 /*
