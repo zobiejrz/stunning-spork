@@ -9,7 +9,7 @@
 #include "Player.hpp"
 #include "Profession.hpp"
 #include <string>
-#include "Race.cpp"
+#include "Race.hpp"
 #include <algorithm>
 Player::Player (std::string name, int level, int race, int background, std::string type, Subclasses subclass) {
     this->name = name;
