@@ -45,7 +45,7 @@ Profession::Profession(std::string name, Subclasses subclass) {
     else if (name == "wizard"){
         type = ProfessionType::Wizard;
     }
-    
+
     this->type = type;
     this->subclass = subclass;
 }
@@ -150,5 +150,3 @@ Subclasses Profession::GetSubclass() {
 void Profession::SetSubclass(Subclasses subclass) {
     this->subclass = subclass;
 }
-
-

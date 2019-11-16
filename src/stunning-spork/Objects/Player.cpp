@@ -10,7 +10,7 @@
 #include "Profession.hpp"
 #include <string>
 #include "Race.cpp"
-    
+#include <algorithm>
 Player::Player (std::string name, int level, int race, int background, std::string type, Subclasses subclass) {
     this->name = name;
     this->level = level;
@@ -124,4 +124,26 @@ std::string PrintRace(Race race)
     break;
   }
   return output;
+int stats[6];
+for (int pos = 1, pos <= 6, pos ++)
+{
+  int rolls[4];
+    for (int i = 0; i < 4; i++)
+      {
+        rolls[i] = rand()%6 + 1;
+        std::cout << rolls[i] << std::endl;
+      }
+    std::sort(std::begin(rolls), std::end(rolls));
+
+      int stat = 0;
+      for (int i = 3; i > 0; i--)
+      {
+        stat+=rolls[i];
+      }
+
+        //std::cout << "Stat: " << stat << std::endl;
+stats[pos] = stat;
+std::cout << "Stat: " << stat << std::endl;
+}
+
 }
