@@ -16,11 +16,11 @@
 
 class Player {
 public:
-    Player(std::string name = "none", int level = 0, int race = 0, int profession = 0, int background = 0, int subclass = 0);
+    Player(std::string name = "none", int level = 0, int race = 0, int background = 0, std::string type = "none", int subclass = 0);
     std::string GetName();
     void SetName(std::string name);
     int GetLevel();
-    void GetLevel(int level);
+    void SetLevel(int level);
     Race race();
     void SetRace(Race race);
     Profession profession();

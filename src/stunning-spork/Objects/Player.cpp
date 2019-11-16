@@ -7,16 +7,17 @@
 //
 
 #include "Player.hpp"
+#include "Profession.hpp"
 #include <string>
 
     
-Player::Player (std::string name, int level, int race, int profession, int background, int subclass) {
+Player::Player (std::string name, int level, int race, int background, std::string type, Subclasses subclass) {
     this->name = name;
     this->level = level;
     this->race = race;
-    this->profession = profession;
+    Profession newProfession(type, subclass);
+    this->profession() = newProfession;
     this->background = background;
-    this->subclass = subclass;
 }
 
 std::string Player::GetName() {

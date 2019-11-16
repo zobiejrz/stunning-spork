@@ -84,7 +84,6 @@ private:
     ProfessionType type;
     Subclasses subclass;
     
-    
 };
 
 #endif /* Profession_hpp */
