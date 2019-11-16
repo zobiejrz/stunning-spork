@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AF31AF6D2380774700A17FE7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF31AF6C2380774700A17FE7 /* main.cpp */; };
+		AF31AF7523807A9E00A17FE7 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF31AF7323807A9E00A17FE7 /* Player.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		AF31AF692380774700A17FE7 /* stunning-spork */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "stunning-spork"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF31AF6C2380774700A17FE7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AF31AF7323807A9E00A17FE7 /* Player.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		AF31AF7423807A9E00A17FE7 /* Player.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Player.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +60,19 @@
 		AF31AF6B2380774700A17FE7 /* stunning-spork */ = {
 			isa = PBXGroup;
 			children = (
+				AF31AF7623807AB200A17FE7 /* Objects */,
 				AF31AF6C2380774700A17FE7 /* main.cpp */,
 			);
 			path = "stunning-spork";
+			sourceTree = "<group>";
+		};
+		AF31AF7623807AB200A17FE7 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				AF31AF7323807A9E00A17FE7 /* Player.cpp */,
+				AF31AF7423807A9E00A17FE7 /* Player.hpp */,
+			);
+			path = Objects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +132,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF31AF7523807A9E00A17FE7 /* Player.cpp in Sources */,
 				AF31AF6D2380774700A17FE7 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
