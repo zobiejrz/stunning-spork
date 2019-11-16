@@ -10,23 +10,8 @@
 #include "Profession.hpp"
 #include <string>
 #include "Race.cpp"
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-Player::Player (std::string name, int level, int race, int profession, int background, int subclass) {
-=======
     
 Player::Player (std::string name, int level, int race, int background, std::string type, Subclasses subclass) {
->>>>>>> d00c239dc2b5b9d41126899922fa9a44c307e15a
-=======
-    
-Player::Player (std::string name, int level, int race, int background, std::string type, Subclasses subclass) {
->>>>>>> d00c239dc2b5b9d41126899922fa9a44c307e15a
-=======
-    
-Player::Player (std::string name, int level, int race, int background, std::string type, Subclasses subclass) {
->>>>>>> d00c239dc2b5b9d41126899922fa9a44c307e15a
     this->name = name;
     this->level = level;
     this->race = race;
